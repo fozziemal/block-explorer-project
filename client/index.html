@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>My Block Explorer</title>
+    <script type="module" src="index.js"></script>
+  </head>
+  <body>
+    <div class="components">
+      <div class="wallet">
+        <h1> Enter Ethereum Address </h1>
+        <input type="text" id="public-address" placeholder="ETH Address" />
+        <div id="balance">
+          0
+        </div>
+        <div id="address-type">
+        </div>
+        <div id="tx-count">
+        </div>
+    </div>
+    
+    <div id='contract-code'>
+      <h1> Bytecode: </h1>
+    </div>
+
+      <div class="send">
+        <h1> Get The Latest Block! </h1>
+        <div class="button" id="get-latest">
+          Get Latest Block
+        </div>
+      </div>
+      <div id='block-information'>
+        <h1> Latest Block Information: </h1>
+      </div>
+    </div>
+  </body>
+</html>
